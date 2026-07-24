@@ -1,8 +1,26 @@
 aid: cartography-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cartography-biosciences.png
 name: Cartography Biosciences
-description: Cartography Biosciences is a company surfaced as a portfolio company of a16z and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Cartography Biosciences is a South San Francisco biotechnology company developing precision cancer
+  immunotherapies designed around tumor-selective antigens. Using single-cell genomics, proteomics, and
+  novel binder-discovery methods, the company profiles antigen expression across thousands of patient
+  samples and millions of cells to build a comprehensive antigen atlas, classifying cancers by antigen
+  expression rather than histology or genetic mutation. Its goal is to direct immunotherapies toward the
+  safest and most effective targets. Backed by a16z, Cartography was surfaced as an a16z portfolio
+  company and added to the API Evangelist network. It publishes a corporate and careers website but no
+  public developer API, developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/cartography-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Cancer
+- Immunotherapy
+- Oncology
+- Genomics
+- Proteomics
+- Precision Medicine
+- Life Sciences
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cartography-biosciences-domain-security.yml
+- type: Website
+  url: https://cartography.bio
+- type: Careers
+  url: https://cartography.bio/careers/
+- type: Blog
+  url: https://cartography.bio/newsroom/
+- type: PrivacyPolicy
+  url: https://cartography.bio/privacy-policy/
+- type: TermsOfService
+  url: https://cartography.bio/terms-conditions/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
